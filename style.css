@@ -1,0 +1,174 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Kufam', cursive;
+}
+
+
+
+/* Nav */
+/* 
+header{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+
+    background-color:rgb(245, 235, 220);
+}
+
+a{
+    display: inline-block;
+    padding: 30px 20px;
+    color: rgb(77, 49, 13);
+    font-weight: 900;
+}
+
+nav a:first-child{
+    margin-left: 30px;
+}
+
+.order a{
+    padding: 0;
+    text-decoration: none;
+    border: red solid 2px;
+}
+
+ */
+
+
+ /* Nav */
+
+header{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+
+    background-color:rgb(245, 235, 220);
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    max-width: 35%;
+    height: 75px;;
+    align-items: center;
+}
+
+nav a{
+    flex-grow: 1;
+    flex-shrink: 1;
+    padding: 20px 10px;
+
+    text-decoration: none;
+    color: rgb(77, 49, 13);
+    font-weight: 900;
+}
+
+
+
+img{
+    position: absolute;
+    width: 95px;
+    left: 47%;
+    top:-3px;
+
+    background: rgb(245, 235, 220);
+    border-radius: 20%;
+    
+}
+
+img::after{
+    content:"1";
+
+}
+
+
+
+
+
+.order{
+    display: flex;
+    flex-direction: row;
+
+}
+
+
+.order a{
+    flex-grow:1;
+    align-self: center;
+    margin: 10px;
+    border: rgb(214, 35, 0) solid 2px;
+    padding: 3px 16px;
+    border-radius: 20px;
+    letter-spacing: .1em;
+    text-decoration: none;
+    font-size: 13px;
+    align-items: center;
+    font-weight: 500;
+
+}
+.order a:first-child{
+    background-color: rgb(214, 35, 0);
+    color:rgb(245, 235, 220);
+}
+
+
+
+/* Undernav */
+.undernav{
+    background-color: rgb(245, 235, 220);
+    border-top: solid 2px rgba(161, 138, 127, 0.623);
+    padding-left: 10px;
+
+
+    height: 30px;
+
+}
+
+
+/* Main */
+main{
+    background-image: url(./img/ilya-mashkov-mkVa2hLJgnI-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height: 60vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+h1{
+    color: rgb(245, 235, 220);
+    text-shadow: 0px 3px 7px rgb(80, 35, 20);
+    font-size: 120px;;
+    width: 70%;
+    margin-left: 50px;
+    
+    
+}
+
+.ordermain{
+    width: 30%;
+    margin-left: 50px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    flex-wrap: nowrap;
+}
+
+
+.ordermain a{
+    color:rgb(214, 35, 0);
+    background-color:rgb(245, 235, 220);
+
+    padding: 10px 20px;
+
+
+}
